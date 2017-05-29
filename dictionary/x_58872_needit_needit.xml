@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="newneedity" max_length="40" name="x_58872_needit_needit" sizeclass="1" type="collection">
+    <element extends="task" label="newneedity" max_length="40" name="x_58872_needit_needit" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="requested for mail" max_length="40" name="requested_for_mail" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="other" max_length="40" name="u_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
     </element>
 </database>
